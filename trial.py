@@ -9,9 +9,9 @@ class FunEvent:
     def __str__(self):
         return f"FunEvent(tags={self.tags}, year={self.year})"
 
-tags = ["google", "ml"]
+tags = ["Best", "ML Engineer"]
 year = 2022
 bootcamp = FunEvent(tags, year)
-tags.append("bootcamp")
+tags.append("I am going global")
 year = 2023
 print(bootcamp)
